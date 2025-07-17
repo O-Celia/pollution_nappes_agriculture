@@ -24,12 +24,11 @@ Les objectifs principaux sont :
 
 | Domaine | Source | Lien |
 |--------|--------|------|
-| Pollution des eaux souterraines | ADES / BRGM | https://ades.eaufrance.fr |
+| Pollution des eaux souterraines | ADES / BRGM | https://ades.eaufrance.fr, https://data.ofb.fr/catalogue/data-eaufrance/ |
 | Utilisation d’engrais | Agreste | https://agreste.agriculture.gouv.fr |
-| Pesticides (ventes) | BNVD | https://bnvd.agriculture.gouv.fr |
+| Pesticides (ventes) | BNVD | https://ventes-produits-phytopharmaceutiques.eaufrance.fr/ |
 | Surfaces agricoles / types de cultures | RPG (Registre parcellaire graphique) | https://data.gouv.fr |
 | Données géographiques | Géoportail / IGN / DRAAF | https://www.geoportail.gouv.fr |
-| Données météo | Météo France Open Data | selon disponibilité |
 
 ---
 
@@ -47,12 +46,13 @@ Les objectifs principaux sont :
 1. **Collecte et exploration des données**
 2. **Nettoyage et préparation**
    - Harmonisation des noms de colonnes
+   - Normalisation
    - Traitement des valeurs manquantes, doublons
    - Conversion des dates, formats géographiques
    - Création de GeoDataFrames pour la cartographie
 3. **Analyse statistique**
    - Statistiques sur les concentrations en nitrates/pesticides
-   - Moyennes, médianes, boxplots par département
+   - Moyennes, médianes, boxplots par zones
    - Histogrammes de distribution
    - Séries temporelles (évolution annuelle)
 4. **Cartographie avec GeoPandas**
@@ -63,7 +63,6 @@ Les objectifs principaux sont :
 5. **Corrélations**
    - Regroupement des données par commune / département
    - Calcul de corrélations entre usage d’engrais/pesticides et pollution
-   - Analyse conjointe avec météo (précipitations favorisant la lixiviation)
    - Représentations croisées : scatterplots, heatmaps
 6. **Modélisation : Identifier les zones à risque via un modèle de classification ou de régression**
    - Sélection des variables explicatives (usage agricole, climat, type de sol…)
@@ -75,6 +74,7 @@ Les objectifs principaux sont :
    - Filtres dynamiques (année, région, type de culture)
    - Évolution dans le temps
    - Zones à risque
+   - Intégration des résultats ML
 
 ---
 

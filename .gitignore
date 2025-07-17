@@ -1,0 +1,19 @@
+# Fichiers sensibles et config
+.env
+
+# Fichiers Python
+__pycache__/
+*.py[cod]
+
+# Logs
+*.log
+
+# Dossiers temporaires
+*.egg-info/
+.env/
+.venv/
+.vscode/
+
+# Fichiers système
+.DS_Store
+Thumbs.db

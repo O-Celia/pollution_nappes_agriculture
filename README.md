@@ -1,4 +1,4 @@
-# Pollution des Nappes Phréatiques et Agriculture Intensive en France
+# Pollution des nappes phréatiques et agriculture intensive en France
 
 ## Analyse croisée : nitrates, pesticides et pratiques agricoles  
 ### Cas d’étude : Région Bretagne

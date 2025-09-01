@@ -93,4 +93,5 @@ pollution_nappes_agriculture/
 ├── dashboard/              # Fichier Power BI (.pbix)
 ├── images/                 # Cartes & visualisations générées
 ├── requirements.txt        # Liste des dépendances Python
+
 └── README.md               # Ce fichier
